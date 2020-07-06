@@ -51,7 +51,7 @@ Notes: Importing data is not necessary in `global.R` file, and the data could be
 `navbarPage()` is used to create a page that contains a top level navigation bar that can be used to toggle a set of tabPanel elements. <br> 
 And `tabPanel()` is used to add sub pages.
 
-![p3](jupypic/main_menus.png)
+![p3](https://github.com/Chengshu21/gsarefDB/blob/master/Tutorial/pic/main_menus.png)
 
 
 ### 2.3 Overview of Data and FAQs
