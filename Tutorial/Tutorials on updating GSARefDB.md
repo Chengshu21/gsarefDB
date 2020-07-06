@@ -30,7 +30,7 @@ There are the structure of the whole shiny app:
 
 Notes: Importing data is not necessary in `global.R` file, and the data could be loaded in `server.R` file. Users could choose the way to load data.  
 
-![p1](jupypic/global.png)
+![p1](https://github.com/Chengshu21/gsarefDB/blob/master/Tutorial/pic/global.png)
 
 ## 2. ui.R
 
@@ -41,7 +41,7 @@ Notes: Importing data is not necessary in `global.R` file, and the data could be
 
 ### 2.1 Theme and Title
 
-![p2](jupypic/theme_title.png)
+![p2](https://github.com/Chengshu21/gsarefDB/blob/master/Tutorial/pic/theme_title.png)
 
 1) As the image shown, the theme could be changed with `try.css` file under the folder `www`. And if you're not familiar with `.css`, you could try `shinytheme()` to select one theme that you like (e.g. shinytheme("cerulean")). <br>
 2) About the title, you could change it by `tags$div()`. 
@@ -58,7 +58,7 @@ And `tabPanel()` is used to add sub pages.
 
 As the image shown, `DT::dataTableOutput()` is used to present data tables from .xlsx, .csv or other files; `Shiny::plotOutput()` is used to display plots, and `includeMarkdown()` is used to present plain text.
 
-![p4](jupypic/contents.png)
+![p4](https://github.com/Chengshu21/gsarefDB/blob/master/Tutorial/pic/contents.png)
 
 ## 3. server.R
 
